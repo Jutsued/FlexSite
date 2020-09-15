@@ -1,0 +1,142 @@
+html {
+    font-size: 20px;
+}
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(0, 51, 102);
+    font-size: 22px;
+    text-align: center;
+    color: 	black;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+    
+  
+    
+}
+
+.nav p {
+    display: inline-block;
+    
+    padding: 10px 10px;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-title {
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main {
+    padding-top: 35px;
+}
+
+.container {
+    
+    display: flex;
+    
+    
+  
+}
+
+.body{
+    margin-top: 75px;
+    min-height: 500px;
+    margin: auto;
+}
+
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.animal{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.animal img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: auto;
+}
+
+.animal span {
+    padding: 5px;
+    min-width: 240px;
+     font-weight: bold;
+    text-align: center;
+}
+
+body{
+    color: black;
+}
+
+.danger {
+    background-image: url(./images/junDenger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.lower-b  { 
+   
+    padding-right: 385px;
+    color:greenyellow;
+    flex-basis: 480px;
+    text-align: left;
+    flex-basis: max-content;
+
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.author{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+
+.vayneimg{
+    display: block;
+    max-width: 30%;
+    margin-left: 500px;
+    
+  
+}
